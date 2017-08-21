@@ -24,11 +24,10 @@ pacman::p_load(twitteR, sentiment, plyr, ggplot2, wordcloud, RColorBrewer, httpu
 
 options(RCurlOptions = list(cainfo = system.file('CurlSSL', 'cacert.pem', package = 'RCurl')))
 
-
-api_key<-"YBBYi4xUeo4kz66Sc6beE6epr"
-api_secret<-"GVI6ZTCPyTN4PcBI2EzuY7Pk8uEaxkjGOMhK6Sr6f4Tezw5S8T"
-access_token<-"137970027-PhKMpeopIAndJlirnqQ5oAir1SBblVHOPnp8JRhK"
-access_token_secret<-"gMJdBbKwmJEvwIbkEjW8E4YKgMQcV8WoUIkwlh09X9G8G"
+api_key<-"XXXXXXXX"
+api_secret<-"XXXXXXXXXXXXXX"
+access_token<-"XXXXXXXXXXXXXXXXXXXX"
+access_token_secret<-"XXXXXXXXXXXXXXX"
 twittersetup<-setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
 
 1
