@@ -1,7 +1,4 @@
 # hello-world
-
-Hey humans!!
-
 this is the code that i used to write for my final year poject about classifying youth emotion on kpop and kdrama from different type of country which are Malaysia and Korea and the software that i used was R Studio.
 
 install.packages("twitteR")
